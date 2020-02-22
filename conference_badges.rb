@@ -19,7 +19,7 @@ end
 
 
 def printer 
-  print batch_badge_creator(arr_of_names)
-  print assign_rooms(empty_room)
+  puts batch_badge_creator(arr_of_names)
+  puts assign_rooms(empty_room)
 end
   
