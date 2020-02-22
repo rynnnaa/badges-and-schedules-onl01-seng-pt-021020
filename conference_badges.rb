@@ -10,16 +10,16 @@ end
   empty_arr
 end
 
-# def assign_rooms(empty_room)
-#   counter = 0
-#   empty_room.map do |attendee|
-#   puts "Hello #{attendee}! You'll be assigned to room #{counter += 1}!"
-#   end
+def assign_rooms(empty_room)
+  counter = 0
+  empty_room.map do |attendee|
+    "Hello #{attendee}! You'll be assigned to room #{counter += 1}!"
+  end
+end
+
+
+# def printer 
+#   print batch_badge_creator(arr_of_names)
+#   print assign_rooms(names_array)
 # end
-
-
-# # def printer 
-# #   print batch_badge_creator(arr_of_names)
-# #   print assign_rooms(names_array)
-# # end
   
