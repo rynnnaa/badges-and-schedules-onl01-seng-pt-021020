@@ -10,9 +10,9 @@ end
   empty_arr
 end
 
-def assign_rooms(empty)
+def assign_rooms(empty_room)
   counter = 0
-  empty.map do |attendee|
+  empty_room.map do |attendee|
   puts "Hello #{attendee}! You'll be assigned to room #{counter += 1}!"
   end
 end
