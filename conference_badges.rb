@@ -11,11 +11,12 @@ end
 end
 
 def assign_rooms(empty)
-  speakers = 0
+  counter = 0
   empty.map do |attendee|
-  puts "Hello #{attendee}! You'll be assigned to room #{speakers += 1}!"
+  puts "Hello #{attendee}! You'll be assigned to room #{counter += 1}!"
+  end
 end
-end
+
 
 # def printer 
 #   print batch_badge_creator(arr_of_names)
