@@ -13,8 +13,7 @@ end
 def assign_rooms(empty)
   speakers = 0
   empty.map do |attendee|
-  end
-  "Hello #{attendee}! You'll be assigned to room #{speakers += 1}!"
+  puts "Hello #{attendee}! You'll be assigned to room #{speakers += 1}!"
 end
 
 # def printer 
