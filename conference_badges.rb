@@ -18,8 +18,8 @@ def assign_rooms(empty_room)
 end
 
 
-# def printer 
-#   print batch_badge_creator(arr_of_names)
-#   print assign_rooms(names_array)
-# end
+def printer 
+  print batch_badge_creator(arr_of_names)
+  print assign_rooms(names_array)
+end
   
