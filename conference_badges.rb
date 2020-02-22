@@ -19,8 +19,7 @@ end
 
 
 def printer 
-puts batch_badge_creator(arr_of_names).each {|phrase| puts phrase}
+  batch_badge_creator(arr_of_names).each {|phrase| puts phrase}
   assign_rooms(empty_room).each {|phrase| puts phrase}
-end
 end
   
