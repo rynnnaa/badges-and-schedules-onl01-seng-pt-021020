@@ -4,8 +4,8 @@ end
 
 def batch_badge_creator(arr_of_names)
   empty_arr = []
-  arr_of_names.each do |name|
-  empty_arr << badge_maker(name)
+  arr_of_names.each do |person|
+  empty_arr << badge_maker(person)
 end
   empty_arr
 end
