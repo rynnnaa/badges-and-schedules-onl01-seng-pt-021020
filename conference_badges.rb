@@ -18,8 +18,8 @@ def assign_rooms(empty_room)
 end
 
 
-def printer 
-  batch_badge_creator(arr_of_names).each {|phrase| puts phrase}
-  assign_rooms(empty_room).each {|phrase| puts phrase}
+def printer(attendees)
+  batch_badge_creator(attendees).each {|phrase| puts phrase}
+  assign_rooms(attendees).each {|phrase| puts phrase}
 end
   
